@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     
-    <! Inside the 'script' tag you write the Javascript funtions>
+    <!-- Inside the 'script' tag you write the Javascript funtions -->
     <script>
           
           function clickRaz()
@@ -21,6 +21,10 @@
 
           function clickHreeder() {
             $('#btnHLR').text("Haha, I can change the button's text!");
+          }
+
+          function clickGraham() {
+            $('#btnGraham').text("Graham was here!");
           }
 
     </script>
@@ -44,10 +48,11 @@
     <div class="container">
       <h3> Members Magic Buttons! </h3>
       <section class="container">
-        <! This is Raz's button. If you want to create the same button shape use 'class="btn btn-magic"'>
+        <!-- This is Raz's button. If you want to create the same button shape use 'class="btn btn-magic"' -->
         <button class="btn btn-magic" onclick="clickRaz()"><img id="razImage" src=""/>RAZ</button>
         <button class="btn" id="btnHLR" onclick="clickHreeder()">Harry</button>
-        <! You can create your own buttons down here. I'm pretty sure you will be more creative than me>
+        <button class="btn" id="btnGraham" onclick="clickGraham()">Graham</button>
+        <!-- You can create your own buttons down here. I'm pretty sure you will be more creative than me -->
           
         
       </section>
