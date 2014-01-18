@@ -28,6 +28,10 @@ markdown : rdiscount
 #
 production_url : http://napierdevsoc.github.com
 
+## Paginator Settings
+paginate: 5
+paginate_path: "page:num"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
