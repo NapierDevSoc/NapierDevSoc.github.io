@@ -1,53 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: home
+title: Napier Developers Society
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    
-    <! Inside the 'script' tag you write the Javascript funtions>
-    <script>
-          
-          function clickRaz()
-          {
-            img = document.getElementById("razImage");
-            img.src = "images/smallfire.gif";
-            alert("There you go...you started a fire!");
-          }
+<div class="row">
+	<div class="large-8 columns">
+		<!-- This loops through the paginated posts -->
+		{% for post in paginator.posts %}
+			<div class="panel">
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p class="author">
+					<span class="date">{{ post.date }}</span>
+				</p>
+				<div class="content">
+					{{ post.content }}
+				</div>
+			</div>
+		{% endfor %}
 
-    </script>
-    
-    <title>Napierdevsoc.github.io by NapierDevSoc</title>
-  </head>
+		<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+			{% else %}
+				<span class="previous">Previous</span>
+			{% endif %}
+				<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+			{% if paginator.next_page %}
+				<a href="/page{{ paginator.next_page }}" class="next">Next</a>
+			{% else %}
+				<span class="next ">Next</span>
+			{% endif %}
+		</div>
+	</div>
 
-  <body>
 
-    <header>
-      <div class="container">
-        <h1>Napier Developers Society</h1>
-        <h2>Git pages website for the society</h2>
+<!-- Large panel for explaining NDS --!>
 
-        <section id="downloads">
-          <a href="https://github.com/NapierDevSoc" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+	<div class="large-4 columns">
+		<div class="panel">
+			<h5>What is NDS</h5>
+			<p>
+				Napier Developers Society is a group of students who work together
+				to develop fun projects and there skills. We have a very open
+				attitude to ideas and welcome creativity from all of our members.
+				Our goal is to have fun, to learn and help prepare people for their
+				future in the industry.
+			</p>
+		</div>
+	</div>
 
-    <div class="container">
-      <h3> Members Magic Buttons! </h3>
-      <section class="container">
-        <! This is Raz's button. If you want to create the same button shape use 'class="btn btn-magic"'>
-        <button class="btn btn-magic" onclick="clickRaz()"><img id="razImage" src=""/>RAZ</button>
-        
-        <! You can create your own buttons down here. I'm pretty sure you will be more creative than me>
-          
-        
-      </section>
-    </div>
 
-    
-  </body>
-</html>
+<!-- Large panel for upcoming events --!>
+
+	<div class="large-4 columns">
+		<div class="panel">
+		<h5>Upcoming Events</h5>
+		</div>
+	</div>
+</div>
