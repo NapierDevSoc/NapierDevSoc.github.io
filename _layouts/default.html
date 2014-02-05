@@ -3,10 +3,15 @@
 {% include nav.html %}
 
 <!-- Main Content Section -->
+
+<!-- post Title -->
 <div class="row">
-  <div class="large-12 columns">
-    {{ content }}
+  <div class="small-12 large-12 columns">
+    <h1>{{page.title}} <small>{{ page.date | date: "%-d, %B %Y" }}</small></h1>
+    <hr />
   </div>
 </div>
+
+{{ content }}
 
 {% include footer.html %}

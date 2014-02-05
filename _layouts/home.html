@@ -2,13 +2,6 @@
 layout: default
 type: home
 ---
-<div class="row">
-    <div class="small-12 large-12 columns">
-      <h1>Napier Developers Society</h1>
-      
-      <hr />
-    </div>
-</div>
 
 <!-- Main Banner Image - place in a paragraph to enforce the modular scale spacing -->
 <p>
@@ -36,9 +29,11 @@ type: home
 </div>
 <p>
 
-<main class="posts">
-{{content}}
-</main>
+<!-- index.html Content & sidebar -->
+<div class="row">
+  <main class="posts large-8 columns">
+    {{ content }}
+  </main>
 
-
-
+  {% include sidebar.html %}
+</div>
