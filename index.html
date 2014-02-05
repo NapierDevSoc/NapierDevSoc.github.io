@@ -18,16 +18,59 @@ title: Napier Developers Society
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
+{% if paginator.total_pages > 1 %}
+
+  {% assign page_start = paginator.page | minus: 2 %}
+  {% assign page_end = paginator.page | plus: 2 %}
+  {% assign page_end_max = paginator.total_pages | minus: 1 %}
+
+  <!-- Stop the loop going out of bounds -->
+  {% if page_start < 1 %}
+    {% assign page_start = 1 %}
   {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
+  {% if page_end > paginator.total_pages %}
+    {% assign page_end = paginator.total_pages %}
   {% endif %}
-</div>
+
+  <div class="pagination-centered">
+    <ul class="pagination">
+      {% if paginator.previous_page %}
+        <li class="arrow"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">&laquo;</a></li>
+      {% endif %}
+
+      {% if page_start > 2 %}
+        <li><a href="/">1</a></li> <li class="unavailable"><a href="">&hellip;</a></li>
+      {% elsif page_start > 1 %}
+        <li><a href="/">1</a></li>
+      {% endif %}
+
+      {% for page in (page_start..page_end) %}
+
+        {% if page == 1 %}
+          {% if page == paginator.page %}
+            <li class="current"><a href="#">{{ page }}</a></li>
+          {% else %}
+            <li><a href="/">{{ page }}</a></li>
+          {% endif %}
+        {% else %}
+
+          {% if page == paginator.page %}
+            <li class="current"><a href="#">{{ page }}</a></li>
+          {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if page_end < page_end_max %}
+        <li class="unavailable"><a href="">&hellip;</a></li><li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+      {% elsif page_end <= page_end_max %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <li class="arrow"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">&raquo;</a></li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}
