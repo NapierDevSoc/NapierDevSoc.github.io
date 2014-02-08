@@ -3,59 +3,74 @@ layout: home
 title: Napier Developers Society
 ---
 
-<div class="row">
-	<div class="large-8 columns">
-		<!-- This loops through the paginated posts -->
-		{% for post in paginator.posts %}
-			<div class="panel">
-				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-				<p class="author">
-					<span class="date">{{ post.date }}</span>
-				</p>
-				<div class="content">
-					{{ post.content }}
-				</div>
-			</div>
-		{% endfor %}
 
-		<!-- Pagination links -->
-		<div class="pagination">
-			{% if paginator.previous_page %}
-				<a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-			{% else %}
-				<span class="previous">Previous</span>
-			{% endif %}
-				<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-			{% if paginator.next_page %}
-				<a href="/page{{ paginator.next_page }}" class="next">Next</a>
-			{% else %}
-				<span class="next ">Next</span>
-			{% endif %}
-		</div>
-	</div>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="panel">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="author">
+      <span class="date">{{ post.date }}</span>
+    </p>
+    <div class="content">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
 
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
 
-<!-- Large panel for explaining NDS --!>
+  {% assign page_start = paginator.page | minus: 2 %}
+  {% assign page_end = paginator.page | plus: 2 %}
+  {% assign page_end_max = paginator.total_pages | minus: 1 %}
 
-	<div class="large-4 columns">
-		<div class="panel">
-			<h5>What is NDS</h5>
-			<p>
-				Napier Developers Society is a group of students who work together
-				to develop fun projects and there skills. We have a very open
-				attitude to ideas and welcome creativity from all of our members.
-				Our goal is to have fun, to learn and help prepare people for their
-				future in the industry.
-			</p>
-		</div>
-	</div>
+  <!-- Stop the loop going out of bounds -->
+  {% if page_start < 1 %}
+    {% assign page_start = 1 %}
+  {% endif %}
+  {% if page_end > paginator.total_pages %}
+    {% assign page_end = paginator.total_pages %}
+  {% endif %}
 
+  <div class="pagination-centered">
+    <ul class="pagination">
+      {% if paginator.previous_page %}
+        <li class="arrow"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">&laquo;</a></li>
+      {% endif %}
 
-<!-- Large panel for upcoming events --!>
+      {% if page_start > 2 %}
+        <li><a href="/">1</a></li> <li class="unavailable"><a href="">&hellip;</a></li>
+      {% elsif page_start > 1 %}
+        <li><a href="/">1</a></li>
+      {% endif %}
 
-	<div class="large-4 columns">
-		<div class="panel">
-		<h5>Upcoming Events</h5>
-		</div>
-	</div>
-</div>
+      {% for page in (page_start..page_end) %}
+
+        {% if page == 1 %}
+          {% if page == paginator.page %}
+            <li class="current"><a href="#">{{ page }}</a></li>
+          {% else %}
+            <li><a href="/">{{ page }}</a></li>
+          {% endif %}
+        {% else %}
+
+          {% if page == paginator.page %}
+            <li class="current"><a href="#">{{ page }}</a></li>
+          {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if page_end < page_end_max %}
+        <li class="unavailable"><a href="">&hellip;</a></li><li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+      {% elsif page_end <= page_end_max %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <li class="arrow"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">&raquo;</a></li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}

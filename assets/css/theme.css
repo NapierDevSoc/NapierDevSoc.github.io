@@ -1,0 +1,7 @@
+.top-bar .name h1 a {
+  width: 100%; /* Override the default 50% */
+}
+
+.title-row {
+  padding-top: 15px;
+}
