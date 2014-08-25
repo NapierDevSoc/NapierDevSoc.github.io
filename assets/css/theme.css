@@ -5,3 +5,8 @@
 .title-row {
   padding-top: 15px;
 }
+
+
+[class*="column"] + [class*="column"]:last-child {
+ float: left; 
+}
