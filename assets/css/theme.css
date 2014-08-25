@@ -5,3 +5,16 @@
 .title-row {
   padding-top: 15px;
 }
+
+
+[class*="column"] + [class*="column"]:last-child {
+ float: left; 
+}
+
+.post {
+  border-bottom: #000 solid 1px;
+  margin-bottom: 1em;
+}
+.posts .post:last-child {
+  border-bottom: none;
+}

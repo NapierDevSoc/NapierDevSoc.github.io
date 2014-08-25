@@ -4,7 +4,7 @@
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/">Napier Developer Society</a></h1>
+        <h1><a href="/">{{ site.title }}</a></h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
     </ul>
@@ -12,11 +12,10 @@
     <section class="top-bar-section">
       <!-- Left Nav Section -->
       <ul class="left">
-        <li><a href="/about/">About</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#join-us">Join Us</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
-        <li><a herf="#wiki">Wiki</a></li>
+        <li class="{% if page.navTab == 'about' %}active{% endif %}"><a href="/about/">About</a></li>
+        <li class="{% if page.navTab == 'members' %}active{% endif %}"><a href="/members/">Members</a></li>
+        <li class="{% if page.navTab == 'join' %}active{% endif %}"><a href="/join/">Join</a></li>
+        <li class="{% if page.navTab == 'contact' %}active{% endif %}"><a href="/contact/">Contact</a></li>
       </ul>
     </section>
   </nav>
