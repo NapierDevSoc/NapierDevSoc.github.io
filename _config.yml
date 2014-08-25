@@ -14,9 +14,9 @@ encoding:       UTF-8
 
 exclude:        ["README.md", "Rakefile", ".gitignore"]
 
-github_link:   "https://github.com/NapierDevSoc"
-twitter_link:  
-facebook_link: "https://www.facebook.com/napierdevelopers"
+github:   "https://github.com/NapierDevSoc"
+facebook_page: "https://www.facebook.com/napierdevelopers"
+facebook_group: "https://www.facebook.com/groups/napierdevelopers/"
 
 
 gems:
