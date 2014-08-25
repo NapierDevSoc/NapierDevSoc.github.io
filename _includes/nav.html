@@ -13,8 +13,8 @@
       <!-- Left Nav Section -->
       <ul class="left">
         <li class="{% if page.navTab == 'about' %}active{% endif %}"><a href="/about/">About</a></li>
-        <li><a href="#join-us">Join Us</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
+        <li class="{% if page.navTab == 'join' %}active{% endif %}"><a href="/join/">Join</a></li>
+        <li class="{% if page.navTab == 'contact' %}active{% endif %}"><a href="/contact/">Contact</a></li>
       </ul>
     </section>
   </nav>
