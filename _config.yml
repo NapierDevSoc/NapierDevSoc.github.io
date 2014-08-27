@@ -12,7 +12,7 @@ paginate:       10
 paginate_path: "page-:num"
 encoding:       UTF-8
 
-exclude:        ["README.md", "Rakefile", ".gitignore"]
+exclude:        ["README.md", "Rakefile", "Gemfile", "Gemfile.lock", ".gitignore"]
 
 github:   "https://github.com/NapierDevSoc"
 facebook_page: "https://www.facebook.com/napierdevelopers"
