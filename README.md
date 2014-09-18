@@ -1,4 +1,4 @@
-NapierDevSoc.github.io
+NapierDevSoc.uk
 ======================
 
 Git pages website for the society.
