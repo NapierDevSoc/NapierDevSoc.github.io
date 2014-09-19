@@ -1,0 +1,24 @@
+<!-- Nav and Banner -->
+
+<div class="sticky">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">{{ site.title }}</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="{% if page.navTab == 'about' %}active{% endif %}"><a href="/about/">About</a></li>
+        <li class="{% if page.navTab == 'members' %}active{% endif %}"><a href="/members/">Members</a></li>
+        <li class="{% if page.navTab == 'join' %}active{% endif %}"><a href="/join/">Join</a></li>
+        <li class="{% if page.navTab == 'contact' %}active{% endif %}"><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </nav>
+</div>
+  
+<!-- End Nav and Banner -->

@@ -1,0 +1,23 @@
+title:          Napier Developers Society
+tagline:        "Building things since 2013"
+about:          ""
+
+## Change url to http://0.0.0.0:4000 for local development
+url:            http://napierdevsoc.uk
+
+markdown:       rdiscount
+permalink:      pretty
+highlighter:    pygments
+paginate:       10
+paginate_path: "page-:num"
+encoding:       UTF-8
+
+exclude:        ["README.md", "CNAME", "Rakefile", "Gemfile", "Gemfile.lock", ".gitignore"]
+
+github:   "https://github.com/NapierDevSoc"
+facebook_page: "https://www.facebook.com/napierdevelopers"
+facebook_group: "https://www.facebook.com/groups/napierdevelopers/"
+
+
+gems:
+  - jekyll-sitemap
