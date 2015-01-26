@@ -1,12 +1,16 @@
 title:          Napier Developers Society
-tagline:        "Building things since 2013"
-about:          ""
+description:    > 
+      Napier Developers Society is a group of students who work together to develop
+      fun projects and their skills. We have a very open attitude to ideas and welcome
+      creativity from all of our members. Our goal is to have fun, to learn and help
+      prepare people for their future in the industry.
 
-## Change url to http://0.0.0.0:4000 for local development
+
 url:            http://napierdevsoc.uk
+baseurl:        
 
 markdown:       rdiscount
-permalink:      pretty
+permalink:      :year/:month/:day/:title/
 highlighter:    pygments
 paginate:       10
 paginate_path: "page-:num"
@@ -15,9 +19,9 @@ encoding:       UTF-8
 exclude:        ["README.md", "CNAME", "Rakefile", "Gemfile", "Gemfile.lock", ".gitignore"]
 
 github:   "https://github.com/NapierDevSoc"
-facebook_page: "https://www.facebook.com/napierdevelopers"
+gitter:   "https://gitter.im/NapierDevSoc"
+facebook_page:  "https://www.facebook.com/napierdevelopers"
 facebook_group: "https://www.facebook.com/groups/napierdevelopers/"
-
 
 gems:
   - jekyll-sitemap

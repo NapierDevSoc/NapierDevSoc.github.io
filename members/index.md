@@ -4,10 +4,17 @@ title: Napier Developers Society Members
 navTab: members
 ---
 
-<div id="members"></div>
+<div id="members" class="row"></div>
 
 <script>
-(function() {
+function defer(method) {
+  if (window.$)
+    method();
+  else
+    setTimeout(function() { defer(method) }, 50);
+}
+
+defer(function () {
   // Grab the list of members
   $.ajax("members-list.json", {
     dataType: "json"
@@ -22,12 +29,14 @@ navTab: members
       }).done(function(member) {
 
         // $img is used to contain the member image and name
-        $img = $('<div class="large-3 columns" style="margin-bottom:2em"></div>');
+        $img = $('<div class="col-md-3" style="margin-bottom:2em"></div>');
 
         // Add the image
         $( '<img>' )
           .attr( "src", member.avatar_url )
-          .appendTo( $img );
+          .appendTo( $img )
+          .addClass('img-thumbnail')
+          .css('width', '100%');
 
         // Add the Name
         if (member.name)
@@ -41,5 +50,5 @@ navTab: members
     });
 
   });
-})();
+});
 </script>
