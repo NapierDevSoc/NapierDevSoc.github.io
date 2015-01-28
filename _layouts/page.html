@@ -2,23 +2,30 @@
 
 {% include nav.html %}
 
-<!-- page Title -->
-<div class="row title-row">
-  <div class="small-12 large-12 columns">
-    <h1>{{page.title}}</h1>
-    <hr />
-  </div>
-</div>
+<div class="container">
 
-<!-- page Content & sidebar -->
-<div class="row">
-  <div class="large-8 columns">
-    {{ content }}
+  <!-- Page Title -->
+  <div class="row title-row">
+    <div class="col-md-12">
+      <h1>{{ page.title }}</h1>
+      <hr />
+    </div>
   </div>
 
-  <div class="large-4 columns">
-    {% include sidebar.html %}
+  <!-- Page Content & sidebar -->
+  <div class="row">
+    <div class="col-md-8">
+      {{ content }}
+    </div>
+
+    <div class="col-md-4 hidden-sm hidden-xs">
+      <div class="well">
+        <p>{{ site.description }}</p>
+        <p><a href="{{ site.baseurl }}/about/">Learn more</a></p>
+      </div>
+    </div>
   </div>
+
 </div>
 
 {% include footer.html %}
