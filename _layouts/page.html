@@ -10,9 +10,12 @@
 
     <div class="col-md-3 sidebar">
       <h3>Upcoming Events</h3>
+	{% for event in site.tags.events limit:5 %}
+	  <p><b><a href="{{ event.url }}">{{ event.title }}</a></b> - {{ event.date }}</p>
+	{% endfor %}
       <h3>Latest News Posts</h3>
-        {% for post in site.tags.news limit:2 %}
-          <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a> - <time class="timeago"></time>
+        {% for post in site.tags.news limit:5 %}
+          <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a> - <time class="timeago" datetime="{{ post.date | date: "%FT00:00:00Z" }}">{{ post.date | date: "%F" }}</time>
         {% endfor %}
     </div>
   </div>
