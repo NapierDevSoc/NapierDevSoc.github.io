@@ -7,21 +7,21 @@ weight: 20
 <div class="posts">
   {% for post in paginator.posts %}
     <div class="post">  
-      <h1>
+      <h2>
         <a href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
           {% if post.category != 'minutes' %}
             <small>{{ post.date | date: "%B %-d, %Y" }}</small>
           {% endif %}
         </a>
-      </h1>
+      </h3>
       <p class="post-meta">
         Published by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a>
       </p>
 
 
       <div class="content">
-        {{ post.content }}
+        {{ post.excerpt | remove: '<h2>' | remove: '</h2>' }}
       </div>
     </div>
   {% endfor %}

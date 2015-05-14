@@ -13,7 +13,7 @@ markdown:       rdiscount
 permalink:      posts/:year/:month/:day/:title/
 highlighter:    pygments
 paginate:       10
-paginate_path: "page-:num"
+paginate_path: "news/page-:num"
 encoding:       UTF-8
 
 exclude:        ["README.md", "CNAME", "Rakefile", "Gemfile", "Gemfile.lock", ".gitignore"]
