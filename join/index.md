@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Join Napier Developers Society
+title: Join Us
 navTab: join
+weight: 9999
 ---
 
 <!-- Some instructions on how to join, as well as when and where we meet! -->

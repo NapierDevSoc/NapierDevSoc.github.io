@@ -10,7 +10,7 @@ url:            http://napierdevsoc.uk
 baseurl:        
 
 markdown:       rdiscount
-permalink:      :year/:month/:day/:title/
+permalink:      posts/:year/:month/:day/:title/
 highlighter:    pygments
 paginate:       10
 paginate_path: "page-:num"

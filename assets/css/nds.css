@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	color: #252525;
+	background-color: #FFF;
+}
+header {
+	background: url(../img/nds-target-white.png) no-repeat #BB202B;
+	height: 290px;
+	
+	padding-top: 25px;
+	padding-right: 25px;
+	
+	color: #F8F8FF;
+
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*
+	Using http://paletton.com/#uid=15A0u0kqxo5hbvrlZrrtxjJAseB
+*/
+
+.header-fadeout {
+	background: linear-gradient(#BB202B, #FFF);
+	height: 0.25em;
+
+	margin-bottom: 10px;
+}
+
+.nav-pills > li > a {
+	color: #F8F8FF;
+}
+
+.nav-pills > li.active > a{
+	background-color: #710008;
+}
+
+.nav-pills > li.active > a:hover {
+	background-color: #710008;
+}
+
+.nav-pills > li > a:hover {
+	background-color: #990C16;
+}
+
+.nav-pills > li > a:focus {
+	background-color: #990C16;
+}

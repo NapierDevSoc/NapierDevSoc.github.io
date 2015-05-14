@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About Napier Developers Society
+title: About
 navTab: about
+weight: 10
 ---
 
 Napier Developers Society is a group of students who work together to develop fun projects and their skills. We have a very open attitude to ideas and welcome creativity from all of our members. Our goal is to have fun, to learn and help prepare people for their future in the industry.

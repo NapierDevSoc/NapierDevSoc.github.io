@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Napier Developers Society Members
+title: Members
 navTab: members
+weight: 500
 ---
 
 <div id="members" class="row"></div>
