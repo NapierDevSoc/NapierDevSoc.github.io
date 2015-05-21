@@ -22,6 +22,7 @@ github:   "https://github.com/NapierDevSoc"
 gitter:   "https://gitter.im/NapierDevSoc"
 facebook_page:  "https://www.facebook.com/napierdevelopers"
 facebook_group: "https://www.facebook.com/groups/napierdevelopers/"
+twitter:  "https://twitter.com/napierdevsoc"
 
 gems:
   - jekyll-sitemap

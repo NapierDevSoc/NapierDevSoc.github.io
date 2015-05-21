@@ -5,9 +5,15 @@
 			<div class="col-md-3">
 				<p><small>© Napier Developers Society 2015</small></p>
 				<p>
-					<a href="https://github.com/napierdevsoc"><i class="fa fa-2x fa-github-square"></i></a>
-					<a href="https://www.facebook.com/napierdevelopers"><i class="fa fa-2x fa-facebook-square"></i></a>
-					<a href="https://twitter.com/napierdevsoc"><i class="fa fa-2x fa-twitter-square"></i></a>
+					{% if site.github %}
+					<a href="{{ site.github }}"><i class="fa fa-2x fa-github-square"></i></a>
+					{% endif %}
+					{% if site.facebook_page %}
+					<a href="{{ site.facebook_page }}"><i class="fa fa-2x fa-facebook-square"></i></a>
+					{% endif %}
+					{% if site.twitter %}
+					<a href="{{ site.twitter }}c"><i class="fa fa-2x fa-twitter-square"></i></a>
+					{% endif %}
 				</p>
 			</div>
 			<div class="col-md-3 col-md-offset-6">
