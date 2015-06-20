@@ -6,6 +6,7 @@ weight: 20
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% if post.tags contains 'news' %}
     <div class="post">  
       <h2>
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -24,6 +25,7 @@ weight: 20
         {{ post.excerpt | remove: '<h2>' | remove: '</h2>' }}
       </div>
     </div>
+  {% endif %}
   {% endfor %}
 </div>
 
