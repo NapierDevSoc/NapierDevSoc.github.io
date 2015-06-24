@@ -2,7 +2,7 @@
 layout: post
 title: Fortnightly Event
 author: wyrdathru
-category: ""
+category: "events"
 tags: [events]
 time: 18:00 - 19:00
 ---

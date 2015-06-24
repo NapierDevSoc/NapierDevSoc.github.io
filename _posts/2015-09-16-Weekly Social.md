@@ -2,7 +2,7 @@
 layout: post
 title: Weekly Social
 author: wyrdathru
-category: ""
+category: "events"
 tags: [events]
 time: 17:15 - 18:00
 ---

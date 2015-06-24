@@ -5,8 +5,7 @@ weight: 20
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  {% if post.tags contains 'news' %}
+  {% for post in site.categories.news limit:5 %}
     <div class="post">  
       <h2>
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -25,28 +24,5 @@ weight: 20
         {{ post.excerpt | remove: '<h2>' | remove: '</h2>' }}
       </div>
     </div>
-  {% endif %}
   {% endfor %}
-</div>
-
-
-<!-- Pagination links -->
-<div class="content">
-  <ul class="pager">
-  {% if paginator.next_page %}
-  <li class="previous"><a href="{{ site.baseurl }}/page-{{ paginator.next_page }}"><span aria-hidden="true">&larr;</span> Older</a></li>
-  {% else %}
-  <li class="previous"><span><span aria-hidden="true">&larr;</span> Older</span></li>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <li class="next"><a href="{{ site.baseurl }}/">Newer <span aria-hidden="true">&rarr;</span></a></li>
-    {% else %}
-      <li class="next"><a href="{{ site.baseurl }}/page-{{ paginator.previous_page }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
-    {% endif %}
-  {% else %}
-  <li class="next"><span>Newer <span aria-hidden="true">&rarr;</span></span></li>
-  {% endif %}
-  </ul>
 </div>

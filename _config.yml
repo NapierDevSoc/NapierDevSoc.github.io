@@ -1,19 +1,13 @@
 title:          Napier Developers Society
 description:    > 
-      Napier Developers Society is a group of students who work together to develop
-      fun projects and their skills. We have a very open attitude to ideas and welcome
-      creativity from all of our members. Our goal is to have fun, to learn and help
-      prepare people for their future in the industry.
-
+      The Napier Developers Society (NDS) is a community of individuals with a passion for technology. Membership is open to students, alumni and staff from universities as well as hobbyists and professionals alike.
 
 url:            http://napierdevsoc.uk
 baseurl:        
 
 markdown:       rdiscount
-permalink:      posts/:year/:month/:day/:title/
+permalink:      posts/:categories/:year/:month/:day/:title/
 highlighter:    pygments
-paginate:       10
-paginate_path: "news/page-:num"
 encoding:       UTF-8
 
 exclude:        ["README.md", "CNAME", "Rakefile", "Gemfile", "Gemfile.lock", ".gitignore"]

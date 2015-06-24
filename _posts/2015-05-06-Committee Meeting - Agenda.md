@@ -2,7 +2,7 @@
 layout: post
 title: Committee Meeting - Agenda
 author: wyrdathru
-category: ""
+category: "news"
 tags: [news]
 ---
 A meeting to discuss the plans for the re-launch of the NDS and the work that needs to be done over the summer and beyond.

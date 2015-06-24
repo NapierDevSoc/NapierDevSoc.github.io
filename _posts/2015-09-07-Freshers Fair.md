@@ -2,7 +2,7 @@
 layout: post
 title: Freshers Fair
 author: wyrdathru
-category: ""
+category: "events"
 tags: [events]
 time: 09:00 - 17:00
 ---
