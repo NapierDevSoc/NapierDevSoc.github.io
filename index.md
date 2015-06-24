@@ -5,9 +5,9 @@ weight: 0
 ---
 
 ## Overview
-The Napier Developers Society (NDS) is a community of individuals with a passion for technology. Membership is open to students, alumni and staff from universities as well as hobbyists and professionals alike.
+The Napier Developers Society (NDS) is a community of individuals with a passion for technology. Membership is open to students, alumni and staff from Edinburgh Napier University as well as external individuals - hobbyists and professionals alike.
 
-Rather than focus on one particular subject or discipline within the industry, the society aims to provide a blend of different areas to help expose its members to as much as possible. 
+Rather than focus on one particular subject or discipline within the industry, the organisation aims to promote a plethora of different areas to help expose its members to as much as possible. 
 
 Whether you identify as a software developer, UI/UX designer, DevOps engineer, business analyst, systems architect or something else, it will benefit you to become a member.
 
