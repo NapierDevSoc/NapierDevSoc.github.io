@@ -9,13 +9,13 @@ weight: 9999
 Anyone interested in technology can and should become a member of NDS. From complete beginners to seasoned professionals, the society seeks to engage everyone in discussion, events and learning.
 
 ## Benefits
-In addition to the network of like-minded individuals that the NDS community provides, a number of benefits are are attributed to being registered members of the society.
+In addition to the network of like-minded individuals that the NDS community provides, a number of benefits are attributed to being registered members of the society.
 
 These include but may not be limited to:
 
-- Super duper thing
-- Amaaaaaazing! stuff
-- Awesome thingymajig
+- Priority entrance to any ticketed events hosted by NDS
+- Discounted fees to any ticket events hosted by NDS
+- TBA
 
 ## Fee
 An annual fee is required to join the NDS, with the price set according to the category of membership that is attained.
