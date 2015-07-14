@@ -10,7 +10,7 @@
 
     <div class="col-md-3 sidebar">
       <h3>Upcoming Events</h3>
-	{% for event in site.tags.events limit:5 %}
+	{% for event in site.tags.events reversed limit:5 %}
 	  <p><b><a href="{{ event.url }}">{{ event.title }}</a></b> - {{ event.date | date: "%F" }} @ {{ event.time }}</p>
 	{% endfor %}
       <h3>Latest News Posts</h3>
