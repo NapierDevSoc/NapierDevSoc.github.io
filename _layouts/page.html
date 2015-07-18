@@ -10,9 +10,13 @@
 
     <div class="col-md-3 sidebar">
       <h3>Upcoming Events</h3>
+	  {% if site.tags.events %}
 	{% for event in site.tags.events reversed limit:5 %}
 	  <p><b><a href="{{ event.url }}">{{ event.title }}</a></b> - {{ event.date | date: "%F" }} @ {{ event.time }}</p>
 	{% endfor %}
+	{% else %}
+	 <p> No upcoming events at this time </p>
+	{% endif %}
       <h3>Latest News Posts</h3>
         {% for post in site.tags.news limit:5 %}
           <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a> - <time class="timeago" datetime="{{ post.date | date: "%FT00:00:00Z" }}">{{ post.date | date: "%F" }}</time>

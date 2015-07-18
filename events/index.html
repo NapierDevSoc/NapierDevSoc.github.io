@@ -5,6 +5,7 @@ weight: 20
 ---
 
 <div class="posts">
+  {% if site.categories.events %}
   {% for post in site.categories.events reversed limit:5 %}
     <div class="post">  
       <h2>
@@ -25,4 +26,7 @@ weight: 20
       </div>
     </div>
   {% endfor %}
+  {% else %}
+  <p> No upcoming events at this time, please check back soon. </p>
+  {% endif %}
 </div>
