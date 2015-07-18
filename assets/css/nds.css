@@ -5,7 +5,7 @@ body {
 	background-color: #FFF;
 }
 header {
-	background: url(../img/nds-target-white.png) no-repeat #BB202B fixed;
+	background: url(../img/nds-target-white.png) no-repeat #BB202B;
 	height: 10em;
 	
 	padding-top: 25px;
