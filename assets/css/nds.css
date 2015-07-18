@@ -5,8 +5,8 @@ body {
 	background-color: #FFF;
 }
 header {
-	background: url(../img/nds-target-white.png) no-repeat #BB202B;
-	height: 290px;
+	background: url(../img/nds-target-white.png) no-repeat #BB202B fixed;
+	height: 10em;
 	
 	padding-top: 25px;
 	padding-right: 25px;
@@ -14,6 +14,12 @@ header {
 	color: #F8F8FF;
 
     position: relative;
+	
+	background-size: 13em;
+}
+
+header .icon-bar {
+	background-color: white;
 }
 
 .bottom {
@@ -38,23 +44,34 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 10px;
 }
 
-.nav-pills > li > a {
+.nav {
+	background-color: #BB202B;
+}
+
+.navbar-collapse {
+	box-shadow: none;
+}
+
+.navbar-nav > li > a {
 	color: #F8F8FF;
+	position: relative;
+	z-index: 1000;
+	background-color: #BB202B;
 }
 
-.nav-pills > li.active > a{
+.navbar-nav > li.active > a{
 	background-color: #710008;
 }
 
-.nav-pills > li.active > a:hover {
+.navbar-nav > li.active > a:hover {
 	background-color: #710008;
 }
 
-.nav-pills > li > a:hover {
+.navbar-nav > li > a:hover {
 	background-color: #990C16;
 }
 
-.nav-pills > li > a:focus {
+.navbar-nav> li > a:focus {
 	background-color: #990C16;
 }
 
