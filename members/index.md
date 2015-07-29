@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Napier Developers Society Members
+title: Members
 navTab: members
+weight: 500
 ---
 
 <div id="members" class="row"></div>
@@ -40,10 +41,10 @@ defer(function () {
 
         // Add the Name
         if (member.name)
-          $img.append('<center>'+member.name+'</center>');
+          $img.append('<center><a href='+member.html_url+'>'+member.name+'</a></center>');
         else
-          $img.append('<center>'+member.login+'</center>');
-
+          $img.append('<center><a href='+member.html_url+'>'+member.login+'</a></center>');
+		  
         // Add the member ($img) to the members div
         $img.appendTo( '#members' );
       });

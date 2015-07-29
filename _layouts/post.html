@@ -1,38 +1,18 @@
-{% include header.html %}
-
-{% include nav.html %}
+{% include 010_page_opening.html %}
 
 <div class="container">
-
-  <!-- post Title -->
-  <div class="row title-row">
-    <div class="col-md-12">
-      <h1>
-        {{ page.title }}
-        {% if page.category != 'minutes' %}
-          <small>{{ page.date | date: "%B %-d, %Y" }}</small>
-        {% endif %}
-      </h1>
-      <p class="post-meta">Published by <a href="https://github.com/{{ page.author }}">{{ page.author }}</a>
-      </p>
-      <hr />
-    </div>
-  </div>
-
-  <!-- post Content & sidebar -->
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
       {{ content }}
     </div>
 
-    <div class="col-md-4 hidden-sm hidden-xs">
-      <div class="well">
-        <p>{{ site.description }}</p>
-        <p><a href="{{ site.baseurl }}/about/">Learn more</a></p>
-      </div>
+    <div class="col-md-3 sidebar">
+      <h3>Post Information</h3>
+      <p>Published by <a href="https://github.com/{{ page.author }}">{{ page.author }}</a></p>
+      <p>Published on {{ page.date | date: "%B %-d, %Y" }}</p>
     </div>
   </div>
 
 </div>
 
-{% include footer.html %}
+{% include 110_page_closing.html %}

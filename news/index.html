@@ -1,0 +1,32 @@
+---
+layout: page
+title:  News
+weight: 20
+---
+
+<div class="posts">
+  {% if site.categories.news %}
+  {% for post in site.categories.news limit:5 %}
+    <div class="post">  
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          {% if post.category != 'minutes' %}
+            <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+          {% endif %}
+        </a>
+      </h3>
+      <p class="post-meta">
+        Published by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a>
+      </p>
+
+
+      <div class="content">
+        {{ post.excerpt | remove: '<h2>' | remove: '</h2>' }}
+      </div>
+    </div>
+  {% endfor %}
+  {% else %}
+  <p> No news items at this time, please check back soon. </p>
+  {% endif %}
+</div>
