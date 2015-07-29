@@ -14,7 +14,7 @@ NDS maintains three core principles that outline its primary goals, as detailed 
 
 ## Executives
 
-The society is officially led by the executive committee who are voted in by members each year. The board for 2015/16 is:
+The society is officially led by the executive committee who are voted in by its members each year. The board for 2015/16 is:
 
 - Kyle Wernham (President)
 - Gareth Pulham (Secretary)

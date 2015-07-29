@@ -18,9 +18,13 @@
 	 <p> No upcoming events at this time </p>
 	{% endif %}
       <h3>Latest News Posts</h3>
+	  {% if site.tags.news %}
         {% for post in site.tags.news limit:5 %}
           <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> by <a href="https://github.com/{{ post.author }}">{{ post.author }}</a> - <time class="timeago" datetime="{{ post.date | date: "%FT00:00:00Z" }}">{{ post.date | date: "%F" }}</time>
         {% endfor %}
+		{% else %}
+		<p> No news items at this time </p>
+		{% endif %}
     </div>
   </div>
 
