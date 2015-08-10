@@ -14,7 +14,7 @@ In addition to the network of like-minded individuals that the NDS community pro
 These include but are not be limited to:
 
 - Priority and/or discounted entrance to any NDS organised, ticketed events
-- Access to our Slack communication platform and private Facebook group
+- Access to our Slack platform, internal wiki and private Facebook group
 - Weekly social meet-ups and and fortnightly tech-talks and presentations
 
 ## Fee
