@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Members
-navTab: members
-weight: 500
+navTab: Members
+weight: 40
 ---
 
 <div id="members" class="row"></div>
