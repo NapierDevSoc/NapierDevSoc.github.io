@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Join Us
-navTab: join
-weight: 9999
+navTab: Join Us
+weight: 50
 ---
 
 ## Membership
@@ -11,11 +11,11 @@ Anyone interested in technology can and should become a member of NDS. From comp
 ## Benefits
 In addition to the network of like-minded individuals that the NDS community provides, a number of benefits are attributed to being registered members of the society.
 
-These include but may not be limited to:
+These include but are not be limited to:
 
-- Priority entrance to any ticketed events hosted by NDS
-- Discounted fees to any ticket events hosted by NDS
-- TBA
+- Priority and/or discounted entrance to any NDS organised, ticketed events
+- Access to our Slack communication platform and private Facebook group
+- Weekly social meet-ups and and fortnightly tech-talks and presentations
 
 ## Fee
 An annual fee is required to join the NDS, with the price set according to the category of membership that is attained.

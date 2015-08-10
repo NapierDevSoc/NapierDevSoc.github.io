@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-navTab: about
+navTab: About
 weight: 10
 ---
 ## Mission
 
-NDS maintains three core principles that outline its primary goals, as detailed in its mission statement below:
+The Napier Developers Society mission statement is as seen below:
 
 * To encourage and promote professional development of individuals both within and outwith the society.
 * To actively engage with the tech community to both organize and participate in relevant events.
