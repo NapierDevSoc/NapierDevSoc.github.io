@@ -12,9 +12,9 @@ Rather than focus on one particular subject or discipline within the industry, t
 
 Whether you identify as or aspire to be a software developer, UI/UX designer, DevOps engineer, business analyst, systems architect or something else, it will benefit you to become a member.
 
+Remember, you don't need to know anything advanced about technology; you can be a complete beginner. All we ask is that you're interested in learning.
+
 ## Activities
-NDS hosts a weekly social every Wednesday at Edinburgh Napier University's Merchiston Campus to engage with other members.
+NDS hosts a weekly co-working space followed by socials on Wednesdays, as well as monthly Tuesday "Doing" and Thursday "Learning" events.
 
-Additionally, a fortnightly event is held on alternating Tuesdays and Thursdays for presentations, tech talks and other activities.
-
-Join our [Facebook group]({{ site.facebook_group }}) and look at our news and event feeds on this website for more information.
+Join our [Facebook group]({{ site.facebook_group }}), follow us on [Twitter]({{ site.twitter }}) and look at our <a href="{{ base}}/news/index.html">news</a> and <a href="{{ base}}/events/index.html">events</a> feeds on this website for more information.
