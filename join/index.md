@@ -14,8 +14,8 @@ In addition to the network of like-minded individuals that the NDS community pro
 These include but are not be limited to:
 
 - Priority and/or discounted entrance to any NDS organised, ticketed events
-- Access to our Slack platform, internal wiki and private Facebook group
-- Weekly social meet-ups and and fortnightly tech-talks and presentations
+- Access to our software and services (internal wiki, server shell account, etc) and hardware inventory (Arduinos, etc)
+- Much more as we develop sponsorships and partnerships throughout the coming year
 
 ## Fee
 An annual fee is required to join the NDS, with the price set according to the category of membership that is attained.
@@ -27,6 +27,11 @@ The fees for each category are as follows:
 
 Besides the price, these memberships are identical and provide the same access to the aforementioned benefits, content and events that the NDS provides to its affiliates.
 
-## Registering
-In order to find out more and register, you can attend our Freshers Fair or Soctoberfest stalls, come to one of our weekly socials or attend one of the fortnightly events we host.
+This fee does not include the cost of a Societies Union card that is both required and <a href="http://www.napierstudents.com/teamnapiersocieties/societyjoinstart/">must be purchased separately from the NSA</a>.
 
+## Registering
+In order to register as a member of NDS, you must use the <a href="http://www.napierstudents.com/login/">online portal</a> provided by the Napier Students Union. We cannot and will not take any cash to pay for your membership. If you don't already have an account, you can <a href="http://www.napierstudents.com/account/register/guest/">register here</a>.
+
+Once you've logged in, please visit our <a href="http://www.napierstudents.com/organisation/societies/developers/">society page</a> and purchase our Society Membership further down on the page. Remember, if you don't already have a Societies Union card, you will need to purchase one of these also.
+
+If you have any trouble with signing up, please send an email to contact@napierdevsoc.uk and we'll provide any support we can.

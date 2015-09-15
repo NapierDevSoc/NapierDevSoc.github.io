@@ -5,6 +5,9 @@ author: wyrdathru
 category: "news"
 tags: [news]
 ---
+## Committee minutes
+Our committee meeting minutes are posted to our public website for transparency and an insight in what we're working hard on behind the scenes.
+
 Committee Meeting for August 19th, 2015
 =======================================
 
