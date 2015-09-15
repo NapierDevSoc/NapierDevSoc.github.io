@@ -8,7 +8,7 @@ tags: [news]
 ## Paying your membership fee
 We're so glad to see so many enthusiastic individuals looking to join our society this year. It's an exciting time to get involved! Now, how do you become a valued member and pay your fee?
 
-As detailed on our newly updated <a href="http://127.0.0.1:4000/join/index.html">'Join Us'</a> page, there are a few steps you need to follow:
+As detailed on our newly updated <a href="http://napierdevsoc.uk/join/index.html">'Join Us'</a> page, there are a few steps you need to follow:
 
 ---
 
