@@ -11,7 +11,7 @@ Every week on Wednesday a co-working space is made available to NDS members to p
 
 ---
 
-- Where: 
+- Where: C30
 - When: 16:00 - 19:00
 - What: A relaxed, friendly co-working space
 
