@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Committee Meeting
+title: Committee minutes
 author: wyrdathru
 category: "news"
 tags: [news]

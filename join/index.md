@@ -34,4 +34,6 @@ In order to register as a member of NDS, you must use the <a href="http://www.na
 
 Once you've logged in, please visit our <a href="http://www.napierstudents.com/organisation/societies/developers/">society page</a> and purchase our Society Membership further down on the page. Remember, if you don't already have a Societies Union card, you will need to purchase one of these also.
 
+Once you've paid your fees you will be able to go to the NSA office and receive your Societies Union card. You must bring or show a copy of your receipt as proof of purchase.
+
 If you have any trouble with signing up, please send an email to contact@napierdevsoc.uk and we'll provide any support we can.
