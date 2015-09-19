@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Website Relaunch
+title: Website relaunch
 author: wyrdathru
 category: "news"
 tags: [news]

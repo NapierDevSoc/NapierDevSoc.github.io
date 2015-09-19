@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Memberships
-author: hreeder
+author: wyrdathru
 category: "news"
 tags: [news]
 ---
@@ -21,3 +21,5 @@ As detailed on our newly updated <a href="http://napierdevsoc.uk/join/index.html
 ---
 
 Again, we cannot and will not take any cash, but our sign-up events are a great place to speak with us about the society, receive any support you need to navigate the online portal to pay and meet other individuals like yourself!
+
+Once you've paid your fees you will be able to go to the NSA office and receive your Societies Union card. You must bring or show a copy of your receipt as proof of purchase.
