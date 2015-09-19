@@ -6,7 +6,6 @@ category: "news"
 tags: [news]
 ---
 ## Guest speakers for tech talk
-
 NDS is pleased to announce that our tech talks on Thursday the 24th of September will feature multiple guest speakers and that the event has been generously sponsored by Edinburgh Napier University's School of Computing to provide free pizza to attendees!
 
 Our speakers will include:
