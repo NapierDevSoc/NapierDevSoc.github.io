@@ -17,7 +17,7 @@ Interested in getting hands-on with technology too? Check out our monthly Tuesda
 
 - Where: B2
 - When: 18:00 - 20:00
-- What: Josh Carson (GearedApp), Andrzej Schmidt (GearedApp) and Andrew Cumming (Edinburgh Napier University)
+- What: Josh Carson (GearedApp), Andrzej Schmidt (GearedApp) and Andrew Cumming (Edinburgh Napier University), Duncan McBain (Codeplay), Meenakshi Ravindran (Codeplay)
 
 ---
 
