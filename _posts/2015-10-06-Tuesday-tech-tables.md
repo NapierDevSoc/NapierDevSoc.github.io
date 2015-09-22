@@ -17,7 +17,7 @@ Interested in hearing more about technology and the industry? Check out our mont
 
 - Where: C30
 - When: 18:00 - 20:00
-- What:
+- What: 
 
 ---
 
