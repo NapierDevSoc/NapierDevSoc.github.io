@@ -5,6 +5,7 @@ author: hreeder
 category: "news"
 tags: [news]
 ---
+
 ## Napier Developers Society is on Slack!
 Find us at <https://napierdevsoc.slack.com/> - you can register with your university (@live.napier.ac.uk) email address. If you want to use a different address, please contact a committee member and ask them to invite an address you specify.
 

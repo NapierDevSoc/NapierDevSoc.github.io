@@ -13,16 +13,4 @@ We'll attempt to be as inclusive as possible by providing not only a variety of 
 
 Interested in hearing more about technology and the industry? Check out our monthly Thursday tech talks event.
 
----
-
-- Where: C30
-- When: 18:00 - 20:00
-- What: 
-
----
-
-### Join the community
-
-NDS thrives because of its network of individuals who both want to challenge themselves and learn as well as give back to others like themselves, by sharing their experiences.
-
-If you want to become an integral part of this mesh of enthusiastic and talented people, take a look at how you can <a href="http://napierdevsoc.uk/join/index.html">join us</a>.
+Please check out the <a href="http://napierdevsoc.uk/events/index.html">events calendar</a> for more information.

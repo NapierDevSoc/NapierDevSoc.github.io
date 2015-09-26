@@ -5,8 +5,21 @@ navTab: Events
 weight: 30
 ---
 
+## Activities
+The society organises many events for its members - both on a regular, scheduled basis and ad-hoc, as other possibilities present themselves.
+
+Key activities that we are involved in include:
+
+- Weekly co-working spaces and social nights out
+- Monthly tech-related talks and workshops
+- Attendance to local meetups, sessions and hackathons 
+
+Please check our calendar below for information on relevant, upcoming events that may be of interest to NDS members.
+
+## Calendar
 <iframe src="https://www.google.com/calendar/embed?src=j0js43u21s8tu9j2s1q9bhhrtk%40group.calendar.google.com&ctz=Europe/London" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
+## Upcoming Events
 <div class="posts">
   {% if site.categories.events %}
   {% for post in site.categories.events reversed limit:5 %}

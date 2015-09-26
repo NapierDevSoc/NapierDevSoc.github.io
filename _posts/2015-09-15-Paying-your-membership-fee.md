@@ -5,6 +5,7 @@ author: wyrdathru
 category: "news"
 tags: [news]
 ---
+
 ## Paying your membership fee
 We're so glad to see so many enthusiastic individuals looking to join our society this year. It's an exciting time to get involved! Now, how do you become a valued member and pay your fee?
 
