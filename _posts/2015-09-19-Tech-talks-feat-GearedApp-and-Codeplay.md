@@ -5,6 +5,7 @@ author: wyrdathru
 category: "news"
 tags: [news]
 ---
+
 ## Tech talks feat. GearedApp and Codeplay
 NDS is excited to announce that our tech talks on Thursday the 24th of September will now include additional speakers and, of course, we're still offering free pizza at the event. It'll be from 6:00pm - 7:30pm in B2 on Merchiston Campus by the library. Everyone is welcome!
 
