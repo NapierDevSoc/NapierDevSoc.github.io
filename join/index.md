@@ -15,7 +15,7 @@ In addition to the network of like-minded individuals that the community provide
 - Much more as we develop sponsorships and partnerships throughout the coming year
 
 ## Fee
-An annual fee is required to join the society but don't worry, we keep it as low as we can:
+An annual fee is required to join the society but don't worry - we keep it as low as we can:
 
 - **Student Members** (Edinburgh Napier University students): **£5.00**
 - **Associate Members** (Edinburgh Napier University alumni and staff or external individuals): **£10.00**
@@ -25,4 +25,4 @@ This fee does not include the cost of a Societies Union card which <a href="http
 ## Registering
 In order to register as a member, you must use the <a href="http://www.napierstudents.com/login/">online portal</a> provided by the Edinburgh Napier Students Union. If you don't already have an account, you can <a href="http://www.napierstudents.com/account/register/guest/">register here</a>. Once you've signed up, please log in and visit our <a href="http://www.napierstudents.com/organisation/societies/developers/">society page</a> to purchase our Society Membership further down on the page.
 
-Any queries can be sent to contact(at) napierdevsoc (dot) uk for additional support.
+Any queries can be sent to contact (at) napierdevsoc (dot) uk for additional support.
