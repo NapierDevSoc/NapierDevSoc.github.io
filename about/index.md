@@ -4,16 +4,15 @@ title: About
 navTab: About
 weight: 10
 ---
-## Mission
 
+## Mission
 The Napier Developers Society mission statement is as seen below:
 
 * To encourage and promote professional development of individuals both within and outwith the society.
-* To actively engage with the tech community to both organize and participate in relevant events.
+* To actively engage with the tech community to both organise and participate in relevant events.
 * To establish a network of open-minded tech enthusiasts who can benefit from one another.
 
 ## Executives
-
 The society is officially led by the executive committee who are voted in by its members each year. The board for 2015/16 is:
 
 - Kyle Wernham (President)

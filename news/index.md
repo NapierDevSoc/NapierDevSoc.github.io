@@ -5,6 +5,14 @@ navTab: News
 weight: 20
 ---
 
+## Spotlight
+The Napier Developers Society is keen to share news not only about what's happening internally with the society, but how it is constantly collaborating with organisations to provide interesting opportunities.
+
+If you would like to stay updated with the latest stream of events, sign up to our mailing list below.
+
+The option to unsubscribe is, of course, always available if you feel like you're receiving too many updates from us.
+
+## Mailing List
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -15,7 +23,6 @@ weight: 20
 <div id="mc_embed_signup">
 <form action="//napierdevsoc.us9.list-manage.com/subscribe/post?u=6348bfc49a97aec46af2b102d&amp;id=85c32cc3f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -44,6 +51,7 @@ weight: 20
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
+## Latest News Posts
 <div class="posts">
   {% if site.categories.news %}
   {% for post in site.categories.news limit:5 %}
