@@ -11,7 +11,8 @@
     <div class="col-md-3 sidebar">
       <h3>Upcoming Events</h3>
 	  {% if site.tags.events %}
-	{% for event in site.tags.events reversed limit:5 %}
+	{% assign events = site.tags.events | sort: date %}
+	{% for event in events limit:5 %}
 	  <p><b><a href="{{ event.url }}">{{ event.title }}</a></b> - {{ event.date | date: "%F" }} @ {{ event.time }}</p>
 	{% endfor %}
 	{% else %}
