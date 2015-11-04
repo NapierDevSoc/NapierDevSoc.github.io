@@ -10,6 +10,7 @@
 
     <div class="col-md-3 sidebar">
       <h3>Upcoming Events</h3>
+<!--
 	  {% if site.tags.events %}
 	{% assign events = site.tags.events | sort: date %}
 	{% for event in events limit:5 %}
@@ -18,6 +19,8 @@
 	{% else %}
 	 <p> No upcoming events at this time </p>
 	{% endif %}
+-->
+      <p>Please check out <a href="{{ site.url }}/events">our calendar</a></p>
       <h3>Latest News Posts</h3>
 	  {% if site.tags.news %}
         {% for post in site.tags.news limit:5 %}
