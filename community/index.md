@@ -15,7 +15,7 @@ want.
 Jump onto our Slack channels at
 [napierdevsoc.slack.com](https://napierdevsoc.slack.com) for a rich,
 communicative experience across all your devices. Register with your university
-email for ask for an invite on an alternative address - get involved!
+email for ask for an invite on an alternative address—get involved!
 
 ## IRC
 We haunt the #nds channel on `chat.freenode.net`. IRC is a great platform to
