@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## Activities
-The society organises many events for its members - both on a regular, scheduled basis and ad-hoc, as other possibilities present themselves.
+The society organises many events for its members—both on a regular, scheduled basis and ad-hoc, as other possibilities present themselves.
 
 Key activities that we are involved in include:
 

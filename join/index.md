@@ -6,7 +6,7 @@ weight: 50
 ---
 
 ## Membership
-From complete beginners to seasoned professionals, anyone interested can become a member of the society - not just students!
+From complete beginners to seasoned professionals, anyone interested can become a member of the society—not just students!
 
 In addition to the network of like-minded individuals that the community provides here are a few benefits:
 
@@ -15,7 +15,7 @@ In addition to the network of like-minded individuals that the community provide
 - Much more as we develop sponsorships and partnerships throughout the coming year
 
 ## Fee
-An annual fee is required to join the society but don't worry - we keep it as low as we can:
+An annual fee is required to join the society but don't worry—we keep it as low as we can:
 
 - **Student Members** (Edinburgh Napier University students): **£5.00**
 - **Associate Members** (Edinburgh Napier University alumni and staff or external individuals): **£10.00**
